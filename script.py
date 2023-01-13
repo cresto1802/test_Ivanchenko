@@ -44,7 +44,7 @@ new_json = json.dumps(str_json_output, indent=2)
 print(new_json)
 
 with open('data.json', 'w') as data_out:
-    json.dump(str_json_output, data_out)
+    json.dump(str_json_output, data_out, indent=2)
 
 
 
